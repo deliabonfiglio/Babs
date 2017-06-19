@@ -74,6 +74,7 @@ public class BabsController {
 		simulazione.loadStations(kvalue, model.getStations());
 		simulazione.run();
 		
+		
 		//devo prendere i risultati della simulazione appena fatta, altrimenti ne creerei una nuova!
 		txtResult.clear();
 		
